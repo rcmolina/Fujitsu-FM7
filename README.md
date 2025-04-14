@@ -3,8 +3,8 @@
 Follow this procedure:
 
 * t772wav bucle.t77 bucle.wav
-* sox "bucle.wav" "bucle.voc"
-* direct /t 888 "bucle.voc" "bucle_4KHz.tzx"
+* sox "bucle.wav" -1 "bucle.voc"
+* direct /t 729 "bucle.voc" "bucle_4K8Hz.tzx"
 
 
 
